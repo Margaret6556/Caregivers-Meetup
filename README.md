@@ -1,2 +1,2 @@
 # Project-setup
- Exercise on seting up the project and saving on zip
+ A practice on setting up the project and saving it on zip file.
