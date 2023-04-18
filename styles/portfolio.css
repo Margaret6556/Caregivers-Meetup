@@ -1,3 +1,31 @@
+:root {
+  --branding-color: #ffc107;
+  --primary-color: #d5e5f2;
+  --navbar-color: radial-gradient(534px at 7.8% 17.6%, rgb(254, 253, 112) 1.7%, rgb(248, 148, 111) 91.8%);
+  --heading-font-family: 'Playfair Display', serif;
+  --default-font-family:  
+}
+
 body {
-  background: blue;
+  background: 
+}
+navbar p {
+  margin: 0 20px;
+  font: 26px;
+}
+
+hero {
+ margin: 120px 20px;
+
+}
+hero h1 {
+
+  font: 94px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
