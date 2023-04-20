@@ -9,12 +9,15 @@ body {
   background: #f4e8ef;
 }
 
-button .btn {
+button {
   background-color: #ffc107;
-  padding: 15px 60px;
+  padding: 15px 30px;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 5px;
+  line-height: 22px;
   margin: 10px 40px;
+  text-decoration: none!important;
+  border-color: #ffc107;
 }
 
 h1,
@@ -27,15 +30,19 @@ p{
   font-size: 24px;
 }
 
-
 nav .cmlogo {
   max-width: 100px;
   height: 60px;
 }
 
-navbar .navbar-name{
-  font-weight: 400;
+nav .container{
+  margin: 10px 20px;
 }
+
+navbar .li {
+  font-size: 22px;
+}
+
 
 main .container{
  margin: 120px 30px;
