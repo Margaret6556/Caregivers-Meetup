@@ -1,7 +1,7 @@
 :root {
   --branding-color: #ffc107;
   --primary-color: #f4e8ef;
-  --heading-font-family: 'Playfair Display', serif;
+  --heading-font-family: 'Playfair Display';
   --default-font-family: 'Poppins';
 }
 
@@ -35,6 +35,11 @@ nav .cmlogo {
   height: 60px;
 }
 
+.navbar-name {
+ font-weight: 600;
+ font-size: 24px;
+ margin-left: 10px;
+}
 nav .container{
   margin: 10px 20px;
 }
@@ -43,9 +48,12 @@ navbar .li {
   font-size: 22px;
 }
 
+.nav-link a {
+  text-align: right;
+}
 
 main .container{
- margin: 120px 30px;
+ margin: 120px 40px;
  background-color: transparent;
 
 }
@@ -59,4 +67,11 @@ hero p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 22px;
+}
+
+.image {
+  display: flex;
+}
+@media (max-width:900px){
+
 }
